@@ -5,7 +5,7 @@
 ## 安装
 
 ```
-composer require jmiy/i-cache
+composer require jmiy/i-cache-3-1
 ```
 
 ## 配置
@@ -13,7 +13,7 @@ composer require jmiy/i-cache
 创建配置文件
 
 ```shell
-php bin/hyperf.php vendor:publish jmiy/i-cache
+php bin/hyperf.php vendor:publish jmiy/i-cache-3-1
 ```
 
 配置如下
@@ -25,7 +25,8 @@ php bin/hyperf.php vendor:publish jmiy/i-cache
 
 declare(strict_types=1);
 
-use Hyperf\Utils\Str;
+use function Hyperf\Support\env;
+use Hyperf\Stringable\Str;
 
 return [
     /*

@@ -10,7 +10,7 @@ declare(strict_types=1);
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
 use function Hyperf\Support\env;
-use Hyperf\Utils\Str;
+use Hyperf\Stringable\Str;
 
 return [
     /*
